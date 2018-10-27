@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Ricardo Vazquez',
   },
-  plugins: [
+  plugins: [ 
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,
