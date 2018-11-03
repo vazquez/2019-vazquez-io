@@ -9,7 +9,7 @@ import './header.scss'
 const Header = ({ siteTitle }) => (
   <div className="Header">
     <div className="HeaderGroup">
-      <Link to="/"><img width="30" src={require('../images/logo-designcode.svg')} /></Link>
+      <Link to="/"><img width="30" src={require('../images/logo-designcode.svg')} alt="main logo" /></Link>
       <Link to="/courses">Courses</Link>
       <Link to="/downloads">Downloads</Link>
       <Link to="/workshops">Workshops</Link>

@@ -18,14 +18,14 @@ const IndexPage = () => (
           <Link to="/video"> Watch our video</Link>
 
           <div className="logos">
-            <img src={require('../images/logo-figma.png')} width="50" />          
-            <img src={require('../images/logo-framer.png')} width="50" />
-            <img src={require('../images/logo-invision.png')} width="50" />
-            <img src={require('../images/logo-react.png')} width="50" />
-            <img src={require('../images/logo-sketch.png')} width="50" />           
-            <img src={require('../images/logo-studio.png')} width="50" />
-            <img src={require('../images/logo-swift.png')} width="50" />
-            <img src={require('../images/logo-xcode.png')} width="50" />
+            <img src={require('../images/logo-figma.png')} alt="logo" width="50" />          
+            <img src={require('../images/logo-framer.png')} alt="logo" width="50" />
+            <img src={require('../images/logo-invision.png')} alt="logo" width="50" />
+            <img src={require('../images/logo-react.png')} alt="logo" width="50" />
+            <img src={require('../images/logo-sketch.png')} alt="logo" width="50" />           
+            <img src={require('../images/logo-studio.png')} alt="logo" width="50" />
+            <img src={require('../images/logo-swift.png')} alt="logo" width="50" />
+            <img src={require('../images/logo-xcode.png')} alt="logo" width="50" />
           </div>
 
           <svg width="100%" height="172" viewBox="0 0 100% 172" fill="none">
@@ -46,11 +46,32 @@ const IndexPage = () => (
       </div>
       <div className="Cards">
         <h2>11 courses, more incoming</h2>
-        <Card
-          image={require('../images/wallpaper.jpg')}
-          title="React for Designers"
-          text="12 sections"
-        />
+        <div className="CardGroup">
+          <Card
+            image={require('../images/wallpaper.jpg')}
+            alt="Section image"
+            title="React for Designers"
+            text="12 sections"
+          />
+          <Card
+            image={require('../images/wallpaper.jpg')}
+            alt="Section image"
+            title="React for Designers"
+            text="12 sections"
+          />
+          <Card
+            image={require('../images/wallpaper.jpg')}
+            alt="Section image"
+            title="React for Designers"
+            text="12 sections"
+          />
+          <Card
+            image={require('../images/wallpaper.jpg')}
+            alt="Section image"
+            title="React for Designers"
+            text="12 sections"
+          />
+        </div>
       </div>
     </div>   
   </Layout>
