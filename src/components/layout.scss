@@ -19,7 +19,7 @@ a {
 
 .Hero {
   position: relative;
-  height: 920px;
+  height: 980px;
   background: url('../images/wallpaper3.jpg');
   background-size: cover;
   background-position: center;
@@ -29,6 +29,14 @@ a {
     margin: 0 auto;
     padding: 150px 50px;
     text-align: center;
+  }
+
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    margin: 80px 0;
+    justify-items: center;
   }
 
   svg {
@@ -93,6 +101,10 @@ a {
 
     .HeroGroup {
       padding: 100px 20px;
+    }
+
+    .logos {
+      grid-template-columns: repeat(3, 1fr);
     }
 
   }
