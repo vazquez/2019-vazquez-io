@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 // import Image from '../components/image'
+import Card from '../components/Card'
 
 const IndexPage = () => (
   <Layout>
@@ -42,6 +43,14 @@ const IndexPage = () => (
 
         </div>
         {/* End of .HeroGroup */}
+      </div>
+      <div className="Cards">
+        <h2>11 courses, more incoming</h2>
+        <Card
+          image={require('../images/wallpaper.jpg')}
+          title="React for Designers"
+          text="12 sections"
+        />
       </div>
     </div>   
   </Layout>
