@@ -54,19 +54,19 @@ const IndexPage = () => (
             text="12 sections"
           />
           <Card
-            image={require('../images/wallpaper.jpg')}
+            image={require('../images/wallpaper2.jpg')}
             alt="Section image"
             title="React for Designers"
             text="12 sections"
           />
           <Card
-            image={require('../images/wallpaper.jpg')}
+            image={require('../images/wallpaper3.jpg')}
             alt="Section image"
             title="React for Designers"
             text="12 sections"
           />
           <Card
-            image={require('../images/wallpaper.jpg')}
+            image={require('../images/wallpaper4.jpg')}
             alt="Section image"
             title="React for Designers"
             text="12 sections"
