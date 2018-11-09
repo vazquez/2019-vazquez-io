@@ -56,6 +56,19 @@ const SectionText = styled.p`
     color: white;
 `
 
+const WaveBottom = styled.div`
+    position: absolute;
+    width: 100%;
+    bottom: -70px;
+`
+
+const WaveTop = styled.div`
+    position: absolute;
+    width: 100%;
+    top: -6px;
+    transform: rotate(180deg);
+`
+
 const Section = props => (
     <SectionGroup image={props.image}>
         <WaveTop>
