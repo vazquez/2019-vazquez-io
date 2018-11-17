@@ -8,7 +8,7 @@ const SectionGroup = styled.div`
     margin: 100px 0 0 0;
     background: url(${props => props.image});
     background-size: cover;
-    height: 600px;
+    height: 720px;
     display: grid;
     grid-template-rows: 300px auto;
     grid-gap: 20px;
@@ -30,6 +30,7 @@ const SectionLogo = styled.img`
 const SectionTitleGroup = styled.div`
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 40px;
     display: grid;
     grid-gap: 20px;
     align-items: start;

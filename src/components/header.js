@@ -7,11 +7,8 @@ import { Link } from 'gatsby'
 import './header.scss'
 
 class Header extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      hasScrolled: false
-    }
+  state = {
+    hasScrolled: false
   }
 
   componentDidMount(){
