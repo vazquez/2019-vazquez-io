@@ -8,13 +8,14 @@ import Section from '../components/Section'
 import Wave from '../components/Wave';
 import staticdata from '../../staticdata.json'
 import Cell from '../components/Cell';
+// import Footer from '../components/Footer';
 
 const IndexPage = () => (
   <Layout>
     <div>
       <div className="Hero">
         <div className="HeroGroup">
-          <h1>Learn to design and code React apps!</h1>
+          <h1>Testand code React apps!</h1>
           <p>Complete courses about the best tools and design systems. Prototype and build apps with React and Swift.</p>
           {/* <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
             <Image />
@@ -77,12 +78,19 @@ const IndexPage = () => (
 
       <p className="SectionCaption">12 sections – 6 hours</p>
       <div className="SectionCellGroup">
-        {staticdata.cells.map(cell => (
-          <Cell title={cell.title} image={cell.image} />
+        {staticdata.cells.map((cell, index) => (
+          <Cell
+            key={index}
+            title={cell.title} 
+            image={cell.image}
+          />
         ))}
       </div>
       
     </div>   
+    {/* <Footer links={data.allContentfulLink.edges}>
+      Backgrounds made in Cinema 4D, iOS app in Swift, site in React. <a href="mailto:support@designcode.io">Email us</a> to ask anything. © 2018
+    </Footer> */}
   </Layout>
 )
 
